@@ -1,0 +1,21 @@
+
+
+Enter Inheritance
+
+Student is a Person. Java supports one of the basic Object Oriented Programming Paradigms : Inheritance.
+
+Student can inherit from Person, to model the fact that a Student is a Person.
+
+This is accomplished by using the Java keyword extends, during class definition of Student.
+
+	public class Person {
+		// <Person Definition>
+	}
+
+	public class Student extends Person {
+		// <Student Definition, after reusing Person Code>
+	}
+
+Inheritance is a mechanism of code reuse. In this case, all the fields and methods previously defined in Person are available for Student as well.
+
+In this Inheritance relationship, Person is called the super-class of Student. Likewise, Student is the sub-class of Person.
